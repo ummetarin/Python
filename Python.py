@@ -60,17 +60,24 @@
 # print(f"homaira is {age}")
 
 # condition
-x=int(input())
-if(x%2==0):
-    print("even")
-else:
-    print("odd")
+# x=int(input())
+# if(x%2==0):
+#     print("even")
+# else:
+#     print("odd")
 
-if(x<=100 and x>=80):
-    print("a+")
-elif(x<=79 and x>=75):
-    print("a")
-elif(x<=74 and x>=70):
-    print("a-")
-else:
-    print("fail")
+# if(x<=100 and x>=80):
+#     print("a+")
+# elif(x<=79 and x>=75):
+#     print("a")
+# elif(x<=74 and x>=70):
+#     print("a-")
+# else:
+#     print("fail")
+
+# lamda
+x=lambda a: a+10
+print(x(5))
+
+x=lambda a:a**2
+print(x(2))
