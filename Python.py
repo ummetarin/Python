@@ -76,8 +76,27 @@
 #     print("fail")
 
 # lamda
-x=lambda a: a+10
-print(x(5))
+# x=lambda a: a+10
+# print(x(5))
 
-x=lambda a:a**2
-print(x(2))
+# x=lambda a:a**2
+# print(x(2))
+
+
+# while
+
+x=1
+while x<6:
+    print(x)
+    x=x+1
+
+x=10
+while x<=10:
+    print("infinity")
+i=10
+while i>0:
+    if i%2==0:
+        print("even")
+    else:
+        print("odd")
+    i-=1
