@@ -102,21 +102,35 @@
 #     i-=1
 
 
-#for loop:
-for i in range (1,10,2):
-    print(i)
-c=0
-d=0
-for i in range(1,10):
-    if(i%2==0):
-        # print(i)
-        # print("even")
-        c=c+1
+# #for loop:
+# for i in range (1,10,2):
+#     print(i)
+# c=0
+# d=0
+# for i in range(1,10):
+#     if(i%2==0):
+#         # print(i)
+#         # print("even")
+#         c=c+1
         
+#     else:
+#         # print(i)
+#         # print("odd")
+#         d=d+1
+        
+# print("even is =",c)
+# print("odd is =",d)
+
+# x=[1,2,3,4,5,6]
+
+# for i in x:
+#     if x==2:
+#         continue
+#     print(x)
+
+def num(n):
+    if(n%2==0):
+        print("even")
     else:
-        # print(i)
-        # print("odd")
-        d=d+1
-        
-print("even is =",c)
-print("odd is =",d)
+        print("odd")
+num(23)
