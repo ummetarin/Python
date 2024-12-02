@@ -134,3 +134,9 @@ def num(n):
     else:
         print("odd")
 num(23)
+
+def name():
+    print("homa")
+x=name()
+print(x)
+
